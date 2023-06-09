@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { LoremModule } from './lorem/lorem.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BotonModule } from './boton/boton.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     LoremModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    BotonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,6 +8,9 @@ import { BotonComponent } from './boton.component';
   declarations: [
     BotonComponent
   ],
+  exports:[
+    BotonComponent
+  ],
   imports: [
     CommonModule
   ]
